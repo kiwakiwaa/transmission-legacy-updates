@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+     xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+    <channel>
+        <title>Transmission Legacy Updates</title>
+        <link>https://github.com/kiwakiwaa/transmission-snowleopard</link>
+        <description>Transmission Legacy macOS 10.6 updates</description>
+        <language>en</language>
+
+        <item>
+            <title>Transmission Legacy 4.2.0-l1</title>
+            <sparkle:version>14718.2.99</sparkle:version>
+            <sparkle:shortVersionString>4.2.0-l1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.6</sparkle:minimumSystemVersion>
+            <sparkle:releaseNotesLink>https://kiwakiwaa.github.io/transmission-legacy-updates/release-notes/4.2.0-l1.html</sparkle:releaseNotesLink>
+            <pubDate>Wed, 24 Jun 2026 16:17:01 +0000</pubDate>
+            <enclosure
+                    url="https://github.com/kiwakiwaa/transmission-snowleopard/releases/download/legacy-4.2.0-l1/Transmission-Legacy-4.2.0-l1-macos10.6-x86_64.dmg"
+                    sparkle:dsaSignature="MD0CHCSRJ+vq5yY2Mad1cvvUJbq8FAI8iCX112tZc5cCHQCKoaco3/+HBFsvPp6jCCYYcmXcQ8bKWQMe+6le"
+                    length="8251964"
+                    type="application/octet-stream" />
+        </item>
+    </channel>
+</rss>
