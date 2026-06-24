@@ -9,15 +9,15 @@
 
         <item>
             <title>Transmission Legacy 4.2.0-l1</title>
-            <sparkle:version>14718.2.0</sparkle:version>
+            <sparkle:version>14718.2.99</sparkle:version>
             <sparkle:shortVersionString>4.2.0-l1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
             <sparkle:releaseNotesLink>https://kiwakiwaa.github.io/transmission-legacy-updates/release-notes/4.2.0-l1.html</sparkle:releaseNotesLink>
-            <pubDate>水, 24  6月 2026 21:15:13 +0000</pubDate>
+            <pubDate>水, 24  6月 2026 22:00:31 +0000</pubDate>
             <enclosure
                     url="https://github.com/kiwakiwaa/transmission-snowleopard/releases/download/legacy-4.2.0-l1/Transmission-Legacy-4.2.0-l1-macos10.15-x86_64.dmg"
-                    sparkle:edSignature="N8S50BcWoQo0zdjAariow7lul0AoYj2FuSbS02OXcY+ilnz3iPw8CfMBAHn6smon6aR5TN9UOniFVppeGenwBw=="
-                    length="5644807"
+                    sparkle:edSignature="ThlStxi2W/Mx2VvwommWrIpX5jsPW2BxmtQJasVfvmJ+bhiOcL1Dyht/vWjEI+mGM9XSDC3yJUZMTsrgg9mgBA=="
+                    length="5644670"
                     type="application/octet-stream" />
         </item>
     </channel>
