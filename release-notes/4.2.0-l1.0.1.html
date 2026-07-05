@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Transmission Legacy 4.2.0-l1.0.1</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 18px 20px 20px;
+            color: #1d1d1f;
+            font: 13px/1.45 -apple-system, BlinkMacSystemFont, "Lucida Grande", "Helvetica Neue", Helvetica, Arial, sans-serif;
+            background: #fff;
+        }
+
+        h1 {
+            margin: 0 0 10px;
+            font-size: 20px;
+            line-height: 1.2;
+            font-weight: 600;
+        }
+
+        h2 {
+            margin: 20px 0 7px;
+            font-size: 14px;
+            line-height: 1.3;
+            font-weight: 600;
+        }
+
+        p {
+            margin: 0 0 10px;
+        }
+
+        ul {
+            margin: 0 0 0 1.25em;
+            padding: 0;
+        }
+
+        li {
+            margin: 0 0 5px;
+        }
+
+        a {
+            color: #06c;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+<h1>Transmission Legacy 4.2.0-l1.0.1</h1>
+
+<p>
+    This patch release includes compatibility and maintenance improvements for legacy macOS releases.
+</p>
+
+<h2>Official Transmission</h2>
+<p>
+    Based on latest state of Transmission (
+    <a href="https://github.com/transmission/transmission/commit/8c9bc1b7c2cdcb15bbd7926bc316ec1cde2c7455">8c9bc1b7</a>). See the official release notes:
+    <a href="https://github.com/transmission/transmission/releases/tag/4.1.2">https://github.com/transmission/transmission/releases/tag/4.1.2</a>
+</p>
+
+<h2>What&rsquo;s New</h2>
+<ul>
+    <li>Fixes a crash on Mac OS X 10.6 when opening or editing group auto-assign rules from the Preferences window.</li>
+    <li>Fixes a Snow Leopard crash that could occur when adding a new group after earlier add-window or torrent activity.</li>
+    <li>Fixes a crash on Mac OS X 10.6 and OS X 10.7 when creating a torrent from the Create Torrent window.</li>
+</ul>
+
+<h2>Legacy macOS</h2>
+<ul>
+    <li>Improves Snow Leopard compatibility for the group rules sheet wiring.</li>
+    <li>Brings the Snow Leopard and Lion Create Torrent window XIB back in line with the modern creator UI, including Source and piece-size controls.</li>
+</ul>
+</body>
+</html>
