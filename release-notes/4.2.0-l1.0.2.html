@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Transmission Legacy 4.2.0-l1.0.2</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 18px 20px 20px;
+            color: #1d1d1f;
+            font: 13px/1.45 -apple-system, BlinkMacSystemFont, "Lucida Grande", "Helvetica Neue", Helvetica, Arial, sans-serif;
+            background: #fff;
+        }
+
+        h1 {
+            margin: 0 0 10px;
+            font-size: 20px;
+            line-height: 1.2;
+            font-weight: 600;
+        }
+
+        h2 {
+            margin: 20px 0 7px;
+            font-size: 14px;
+            line-height: 1.3;
+            font-weight: 600;
+        }
+
+        p {
+            margin: 0 0 10px;
+        }
+
+        ul {
+            margin: 0 0 0 1.25em;
+            padding: 0;
+        }
+
+        li {
+            margin: 0 0 5px;
+        }
+
+        a {
+            color: #06c;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+<h1>Transmission Legacy 4.2.0-l1.0.2</h1>
+
+<p>
+    This patch release expands Snow Leopard compatibility and improves legacy macOS packaging.
+</p>
+
+<h2>Official Transmission</h2>
+<p>
+    Based on latest state of Transmission (
+    <a href="https://github.com/transmission/transmission/commit/7adb36c7a7579887eb7799c0708a9c643155fcb6">7adb36c</a>). See the official release notes:
+    <a href="https://github.com/transmission/transmission/releases/tag/4.1.2">https://github.com/transmission/transmission/releases/tag/4.1.2</a>
+</p>
+
+<h2>What&rsquo;s New</h2>
+<ul>
+    <li>Adds an i386 build path for Mac OS X 10.6 Snow Leopard.</li>
+    <li>Uses a bundled ARC compatibility runtime for Snow Leopard builds instead of relying on ARC-lite from older Xcode installations.</li>
+    <li>Bundles legacy compatibility dependencies inside the app so the backported app does not require the build toolchain to be installed.</li>
+</ul>
+</body>
+</html>

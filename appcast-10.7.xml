@@ -8,16 +8,16 @@
         <language>en</language>
 
         <item>
-            <title>Transmission Legacy 4.2.0-l1.0.1</title>
-            <sparkle:version>14718.2.99</sparkle:version>
-            <sparkle:shortVersionString>4.2.0-l1.0.1</sparkle:shortVersionString>
+            <title>Transmission Legacy 4.2.0-l1.0.2</title>
+            <sparkle:version>14718.2.199</sparkle:version>
+            <sparkle:shortVersionString>4.2.0-l1.0.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>10.7</sparkle:minimumSystemVersion>
-            <sparkle:releaseNotesLink>https://kiwakiwaa.github.io/transmission-legacy-updates/release-notes/4.2.0-l1.0.1.html</sparkle:releaseNotesLink>
-            <pubDate>日, 05  7月 2026 21:43:28 +0000</pubDate>
+            <sparkle:releaseNotesLink>https://kiwakiwaa.github.io/transmission-legacy-updates/release-notes/4.2.0-l1.0.2.html</sparkle:releaseNotesLink>
+            <pubDate>土, 18  7月 2026 18:11:24 +0000</pubDate>
             <enclosure
-                    url="https://github.com/kiwakiwaa/transmission-snowleopard/releases/download/legacy-4.2.0-l1.0.1/Transmission-Legacy-4.2.0-l1.0.1-macos10.7-x86_64.dmg"
-                    sparkle:edSignature="XAlDSEKcJUUGy6y+ZkspZ+WUmcpUNeVb18bUbgwR3G92IhOIomBEkcDmmeirRJz371AAtkcL8jLc1ccFk1JZDA=="
-                    length="8587826"
+                    url="https://github.com/kiwakiwaa/transmission-snowleopard/releases/download/legacy-4.2.0-l1.0.2/Transmission-Legacy-4.2.0-l1.0.2-macos10.7-x86_64.dmg"
+                    sparkle:edSignature="sQK8U7fhjPhvVjOfOKrWEbfSSvgQvSufmVS+b/clNZTuVXUnyYSZPK1/MLqqtTm7STfv1GJoahbHjVA3QlYEDg=="
+                    length="14357720"
                     type="application/octet-stream" />
         </item>
     </channel>
